@@ -13,7 +13,7 @@
   --color-background: #F8F9FF;
   --color-tertiary: #FFFFFF;
   --color-neutral: #64748B;
-  --error-color: #EF4444;
+  --color-error: #EF4444;
   --color-hover: #0053DB;
   --color-exito: #FFE800;
   --font-family-header: 'Manrope',
@@ -25,7 +25,7 @@
 }
 
 .dark {
-  --color-background: #161616;
+  --color-background: #06060e;
   --color-primary: #F8FAFC;
   --color-secondary: #3B82F6;
   --color-tertiary: #0F172A;

@@ -7,6 +7,9 @@ export async function getProducts(productName: string): Promise<Product[]> {
             throw new Error(`Error en la solicitud: ${response.status}`);
         }
         const data = await response.json();
+        if (data.length === 0) {
+            throw new Error('No se encontraron resultados');
+        }
         return data;
     } catch (error) {
         console.error(error);
