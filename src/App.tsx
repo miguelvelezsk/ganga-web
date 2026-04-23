@@ -16,7 +16,7 @@ function App() {
   return (
     <>
       <NavBar />
-      <SearchBar setProductSearch={setProductSearch} productSearch={productSearch} />
+      <SearchBar setProductSearch={setProductSearch} />
       <div className="min-h-[60vh]">
         {isLoading ? (
           <SkeletonGrid />

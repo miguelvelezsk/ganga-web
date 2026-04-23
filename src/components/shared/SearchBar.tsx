@@ -3,23 +3,20 @@ import { Search, X } from 'lucide-react';
 
 interface SearchBarProps {
     setProductSearch: (productSearch: string) => void;
-    productSearch: string;
 }
 
-export default function SearchBar({ setProductSearch, productSearch }: SearchBarProps) {
+export default function SearchBar({ setProductSearch }: SearchBarProps) {
     const [productName, setProductName] = useState('');
 
     const handleSearch = () => {
         if (productName.trim()) {
             setProductSearch(productName.trim());
         }
-        console.log("Product Search: ", productSearch);
     };
 
     const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
         if (e.key === 'Enter') {
             handleSearch();
-            console.log("Product Search: ", productSearch);
         }
     };
 
