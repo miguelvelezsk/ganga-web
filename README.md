@@ -8,7 +8,7 @@
 
 This project was developed following formal software engineering methodologies. You can review the detailed planning and design documents here:
 
-* [Frontend Design Document (FDD)](./docs/PRD.md): Detailed visual design and architecture.
+* [Frontend Design Document (FDD)](./docs/FDD.md): Detailed visual design and architecture.
   
 ### Purpose & Visual Aesthetics
 
@@ -22,7 +22,7 @@ This project was developed following formal software engineering methodologies. 
 
   * **Background:** #F8FAFC (Light Gray)
 
-  * **Typography:** Manrope for structure and Inter for precision labels.
+* **Typography:** Manrope for structure and Inter for precision labels.
 
 ---
 
